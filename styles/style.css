@@ -10,9 +10,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.button{
-    
+.container{
+    width: 75%;
+    margin: 70px auto;
 }
+
 
 .button a{
     text-decoration: none;
@@ -87,19 +89,13 @@ body{
     line-height: 80px;
 }
 
-..banner-text h3{
+.banner-text h3{
     margin-bottom: 0px;
 }
 
 /* ---------------------------
         players section
 --------------------------- */
-
-.container{
-    width: 75%;
-    margin: 70px auto;
-}
-
 .players{
     width: 100%;
     display: grid;
@@ -132,9 +128,7 @@ body{
     margin-top: 0px;
 }
 
-/* ---------------------------
-        highlight section
---------------------------- */
+
 
 .highlight{
     display: grid;
@@ -154,4 +148,73 @@ body{
 
 .image img{
     width: 500px;
+}
+
+/* ---------------------------
+        news section
+--------------------------- */
+
+.news-container{
+    display: flex;
+    margin: auto;
+}
+
+.news{
+    width: 50%;
+    margin: 20px auto;
+    position: relative;
+}
+.news img{
+    display: block;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news a{
+    text-decoration: none;
+}
+
+.news-text{
+    position: absolute;
+    display: none;
+    margin-left: 16.813px;
+    padding: 10px;
+    top: 0;
+    
+    
+}
+
+.news:hover .news-text{
+    display: block;
+    background-color: #0a082663;
+    color: white;
+    height: 244.375px;
+    width: 450px;
+}
+
+.news-btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-btn a{
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15pt;
+    transform: translate(50%);
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #E02C6D;
+    color: #E02C6D;
+    transition: all .3s ease-in;
+}
+.news-btn a:hover{
+    background-color: rgb(231, 227, 227);
+    color: white;
+    font-weight: 500;
+   background-color: #E02C6D;
 }
