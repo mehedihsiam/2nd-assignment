@@ -260,3 +260,42 @@ body{
 #match{
     color: wheat;
 }
+
+
+/* ----------------------------------
+        logo section
+---------------------------------- */
+.logo{
+    margin: 20px auto 10px auto;
+}
+.logo img{
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------------------------
+        footer section
+---------------------------------- */
+
+.socia-icons{
+    text-align: center;
+    font-size: 2em;
+}
+
+.socia-icons a{
+    text-decoration: none;
+    color: rgb(200, 220, 243);
+    display: inline-block;
+    padding: 10px;
+}
+
+/* ----------------------------------
+        copyright section
+---------------------------------- */
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+}
