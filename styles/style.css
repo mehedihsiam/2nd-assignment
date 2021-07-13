@@ -3,6 +3,7 @@
         common styles
 --------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 
 body{
     margin: 0px;
@@ -19,7 +20,7 @@ body{
 .button a{
     text-decoration: none;
     font-size: 10pt;
-    font-weight: 500;
+    font-weight: 700;
     padding: 15px 25px;
     border-radius: 5px;
     background-color: #E02C6D;
@@ -31,7 +32,7 @@ body{
     padding: 17px 27px;
     background-color: rgb(231, 227, 227);
     color: #E02C6D;
-    font-weight: 500;
+    font-weight: 700;
     box-shadow: 1px 1px 10px #E02C6D;
 }
 
@@ -217,4 +218,45 @@ body{
     color: white;
     font-weight: 500;
    background-color: #E02C6D;
+}
+
+
+/* ----------------------------------
+        upcoming match section
+---------------------------------- */
+
+.upcoming-match{
+    width: 100%;
+    height: 300px;
+    background-color: #090C17;
+}
+
+.section-title{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.matchs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.time{
+    font-size: 2em;
+    color: #E9B62A;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+}
+
+.team{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+}
+
+#match{
+    color: wheat;
 }
