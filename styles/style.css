@@ -1,0 +1,90 @@
+
+/* ---------------------------
+        common styles
+--------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------
+        slider animation
+--------------------------- */
+@keyframes slider {
+    0%{
+        background-image: url(../images/banner/banner-1.png);
+        background-size: 100%;
+    }
+
+    50%{
+        background-image: url(../images/banner/banner-2.png);
+        background-size: 100%;
+    }
+    100%{
+        background-image: url(../images/banner/banner-3.png);
+        background-size: 100%;
+    }
+}
+
+
+
+/* ---------------------------
+        banner section
+--------------------------- */
+
+.banner-section{
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.slider{
+    margin-top: 100px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 10s ease-in 0.5s infinite alternate;
+}
+.banner-text{
+    margin-top: 100px;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+..banner-text h3{
+    margin-bottom: 0px;
+}
+.button{
+    
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #E02C6D;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+.button a:hover{
+    padding: 17px 27px;
+    background-color: white;
+    color: #E02C6D;
+    font-weight: 500;
+}
