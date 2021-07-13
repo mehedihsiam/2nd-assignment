@@ -97,7 +97,6 @@ body{
 
 .container{
     width: 75%;
-    height: 2000px;
     margin: 70px auto;
 }
 
@@ -131,4 +130,28 @@ body{
 
 .plr-name h2{
     margin-top: 0px;
+}
+
+/* ---------------------------
+        highlight section
+--------------------------- */
+
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text{
+    margin-right: 60px;
+}
+
+.text h1{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.image img{
+    width: 500px;
 }
