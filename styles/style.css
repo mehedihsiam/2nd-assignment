@@ -132,26 +132,6 @@ body{
     box-shadow: 1px 1px 10px #E02C6D;
 }
 
-/* ---------------------------
-        slider animation
---------------------------- */
-/* @keyframes slider {
-    0%{
-        background-image: url(../images/banner/banner-1.png);
-        background-size: 100%;
-    }
-
-    50%{
-        background-image: url(../images/banner/banner-2.png);
-        background-size: 100%;
-    }
-    100%{
-        background-image: url(../images/banner/banner-3.png);
-        background-size: 100%;
-    }
-} */
-
-
 
 /* ---------------------------
         banner section
@@ -173,7 +153,6 @@ body{
 .slider{
     margin-top: 100px;
     align-items: center;
-    /* animation: slider 10s ease-in 0.5s infinite alternate; */
 }
 
 .slider img{
